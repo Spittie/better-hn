@@ -11,5 +11,8 @@ if (re.exec(document.URL)) {
     op[i].style.backgroundColor = "#3daee9";
     op[i].style.padding = "1px 2px";
     op[i].style.borderRadius = "5px";
+    if (op[i].firstChild) {
+      op[i].firstChild.color = "#fcfcfc"
+    }
   } 
 }
